@@ -7,6 +7,6 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-EXPOSE 8000
+EXPOSE 8001
 
-CMD ["gunicorn", "-b", "0.0.0.0:8000", "chanel.wsgi:application"]
+CMD ["gunicorn", "-b", "0.0.0.0:8001", "chanel.wsgi:application"]
