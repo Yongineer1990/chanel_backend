@@ -13,7 +13,7 @@ SECRET_KEY = my_settings.SECRET['secret']
 ALGORITHM = my_settings.ALGORITHM['algorithm']
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 
